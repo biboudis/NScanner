@@ -1,0 +1,9 @@
+NScanner is a simple .NET desktop application for network scanning. It operates in port scanning or in port sweeping mode, using one of the (currently) three scan methods available. It is developed in C# using WinPcap native libraries and the .NET wrapper, SharpPcap.
+
+NScanner provides a basic interface for setting up network scan options with logging capabilities.
+Modes currently available: Port Sweeping, Port Scanning
+Methods currently available: TCP Scan, UDP Scan, SYN Scan
+
+NScanner utilizes the Windows native libraries of WinPcap, a package that is a prerequisite. You can download WinpCap library from http://www.winpcap.org/. For the WinpCap API invokation, we have used SharpPcap. SharpPcap is a packet capture framework for the .NET environment, based on pcap / WinPcap libraries. The purpose of this library is to provide an API for capturing, injecting, analyzing and building packets using any .NET language such as C# and VB.NET. The SharpCap project was initiated from Tamir Gal http://www.tamirgal.com/blog/page/SharpPcap.aspx and is currently maintained from Chris Morgan through SourceForge.NET http://sourceforge.net/projects/sharppcap. As far as we can, we are going to support this project by all means as well.
+
+The NScanner project was initially developed as a "Systems and Network Security" course assignment of Information Systems (MSc) in Athens University of Economics and Business (MScIS 2008-09) by Aggelos Biboudis and Anastasios Nerantzinis.
